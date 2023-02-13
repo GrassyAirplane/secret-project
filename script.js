@@ -4,7 +4,7 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 let particles = [];
 const particleCount = 500;
-let buttonsSwapped = false; // Keep track of button positions
+let buttonsSwapped = true; // Keep track of button positions
 
 yesButton.addEventListener('click', () => {
   if(confirm("I knew you'd say yes stinker (;")){
